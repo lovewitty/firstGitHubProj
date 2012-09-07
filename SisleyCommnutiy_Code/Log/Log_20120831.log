@@ -1,0 +1,283 @@
+/*******************************************************************************************************
+* DateTime: 2012/8/31 0:05:52		IP: 192.168.99.41()		Brower: Unknown  Unknown
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.28426080010831356
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 0:15:13		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 0:15:13		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 0:23:23		IP: 192.168.99.41()		Brower: Unknown  Unknown
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.41822352167218924
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:10:19		IP: 127.0.0.1()		Brower: Unknown  Unknown
+* Url : http://localhost:10924/sisleycommnutiy_code/index.aspx?aspxerrorpath=/SisleyCommnutiy_Code/upload/userHearderImg/数据绑定
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:14:11		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:14:11		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx?aspxerrorpath=/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:17:19		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx?aspxerrorpath=/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:17:19		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:18:31		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:18:34		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:18:34		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:18:50		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:18:50		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:19:01		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 10:19:01		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:04:33		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:04:33		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:06:17		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:06:17		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:42:51		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.6005660337395966
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:45:25		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.0990985855460167
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:45:30		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.9075708328746259
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:45:43		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.5141825224272907
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:47:07		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.06198432296514511
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 11:47:10		IP: 192.168.99.114()		Brower: WinXP  IE8
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.5856101536192
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 12:06:53		IP: 192.168.99.41()		Brower: Unknown  Unknown
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.3805961483158171
+uIdx:
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:06		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/Login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:21		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:25:21		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/31 14:46:15		IP: 192.168.99.41()		Brower: WinNT  Firefox15
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=GetLoginerInfo&r=0.82622273825109
+uIdx:
+*******************************************************************************************************/
+

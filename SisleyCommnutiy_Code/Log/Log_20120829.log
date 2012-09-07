@@ -1,0 +1,121 @@
+/*******************************************************************************************************
+* DateTime: 2012/8/29 0:27:47		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/share_detail_01.aspx?Idx=19
+uEmail=22967225@qq.com,uPwd=123,viladCode=3f3b
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 14:22:22		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 16:06:25		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=ab72
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 16:49:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=3442
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 16:52:06		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=c1f9
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 17:25:04		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=3f06
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 20:52:05		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=9bca
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 20:52:13		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=c1fb
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 21:24:05		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=67c5
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 22:09:47		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:10924/SisleyCommnutiy_Code/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=9e09
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 22:13:28		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:10924/SisleyCommnutiy_Code/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=9598
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:10:35		IP: 192.168.99.198()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=624413188@qq.com,uPwd=163414,viladCode=8f45
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:28:23		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=c4a4
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:35:22		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:41:30		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:41:32		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/29 23:59:50		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+

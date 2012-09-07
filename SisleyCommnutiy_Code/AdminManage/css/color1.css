@@ -1,0 +1,70 @@
+.bgc_begin{
+	background-color: #E3E1CB;
+}
+.bgc_doing{
+	background-color: #BDE1C6;
+}
+.bgc_end{
+	background-color: #70BE8D;
+}
+.bgc_detail_m{
+	background-color: #FBF1BF;
+}
+.bgc_detail_b{
+	background-color: #DDC189;
+}
+.bgc_title{
+	background-color: #d7d7d7;
+}
+.bgc_text{
+	background-color: #ececec;
+}
+.bgc_head{
+	background-color: #66CCFF;
+}
+.bgc_total{
+	background-color: #00B0CF;
+}
+.bgc_alert{
+	background-color: #FDBDA2;
+}
+.bgc_warn{
+	background-color: #E8A8C1;
+}
+.bgc_status_1{
+	background-color: #E3E1CB;
+}
+.bgc_status_2{
+	background-color: #D5E5B6;
+}
+.bgc_status_3{
+	background-color: #BDE1C6;
+}
+.bgc_status_4{
+	background-color: #FBF1BF;
+}
+.bgc_status_5{
+	background-color: #DDC189;
+}
+.bgc_status_6{
+	background-color: #70BE8D;
+}
+.bgc_vivid{
+	background-color:#FADAB7
+}
+.bgc_sum{
+	background-color:#C4DFF7
+}
+
+
+.bgc_trOver{
+	background-color:#C4DFF7
+}
+.bgc_trOut{
+	background-color:#ffffff
+}
+
+.bgc_trJianGe{
+	background-color:#F7F7F7
+}
+

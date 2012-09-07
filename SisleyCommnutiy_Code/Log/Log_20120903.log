@@ -1,0 +1,114 @@
+/*******************************************************************************************************
+* DateTime: 2012/9/3 11:47:15		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 11:59:07		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 11:59:07		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:01:00		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:02:06		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:02:06		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:03:41		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:03:41		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:05:33		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:05:33		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:30:54		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:31:14		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:31:14		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:34:29		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 12:34:29		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 14:14:52		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 14:14:52		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 14:16:03		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/3 14:16:03		IP: 127.0.0.1()		Brower: WinNT  Chrome18
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+

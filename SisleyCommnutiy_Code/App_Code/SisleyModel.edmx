@@ -1,0 +1,1983 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="2.0" xmlns:edmx="http://schemas.microsoft.com/ado/2008/10/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="SisleyCommnutiy_NewDBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+        <EntityContainer Name="SisleyCommnutiy_NewDBModelStoreContainer">
+          <EntitySet Name="Tab_Activity" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Activity" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Activity_Apply" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Activity_Apply" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Advertisement" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Advertisement" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Article" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Article" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_ArticleLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_ArticleLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseMain" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseMain_Type" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain_Type" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseMain_ViewLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain_ViewLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseTest_Question" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseTest_Question" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_CourseTestLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_CourseTestLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Gift" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Gift" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_HomeWeibo" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_HomeWeibo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_IntegralLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_IntegralLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_magazine" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_magazine" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_magazine_Log" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_magazine_Log" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_magazineDetail" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_magazineDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_magazineHomeAd" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_magazineHomeAd" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Medal" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Medal" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_medalGetLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_medalGetLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_MedalProduct" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_MedalProduct" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Order" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Order" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_OrderDetail" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_OrderDetail" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_QA_SubType" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_QA_SubType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_QA_Type" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_QA_Type" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_QuestionAndAnswer" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_QuestionAndAnswer" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_Smart_QA_Type" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_Smart_QA_Type" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_SmartPerson" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_SmartPerson" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_SmartPerson_QA" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_SmartPerson_QA" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_SuperStarProduct" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_SuperStarProduct" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_TryProduct" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_TryProduct" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserArticle" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserArticle" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserArticle_Product" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserArticle_Product" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserArticle_ProductType" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserArticle_ProductType" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserArticle_Reply" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserArticle_Reply" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserArticle_ViewLog" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserArticle_ViewLog" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserCertificate" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserCertificate" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserCommunity" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserCommunity" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserLevel" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserLevel" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserManager" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserManager" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="Tab_UserVipCardNo" EntityType="SisleyCommnutiy_NewDBModel.Store.Tab_UserVipCardNo" store:Type="Tables" Schema="dbo" />
+          <EntitySet Name="v_Activity_Apply" EntityType="SisleyCommnutiy_NewDBModel.Store.v_Activity_Apply" store:Type="Views" store:Schema="dbo" store:Name="v_Activity_Apply">
+            <DefiningQuery>SELECT 
+      [v_Activity_Apply].[Idx] AS [Idx], 
+      [v_Activity_Apply].[UserUIdx_Fx] AS [UserUIdx_Fx], 
+      [v_Activity_Apply].[UserEmail] AS [UserEmail], 
+      [v_Activity_Apply].[ActivitiesIdx_Fx] AS [ActivitiesIdx_Fx], 
+      [v_Activity_Apply].[ActiveTitle] AS [ActiveTitle], 
+      [v_Activity_Apply].[DateOfApplication] AS [DateOfApplication], 
+      [v_Activity_Apply].[ApprovalStatus] AS [ApprovalStatus]
+      FROM [dbo].[v_Activity_Apply] AS [v_Activity_Apply]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_ArticleLog" EntityType="SisleyCommnutiy_NewDBModel.Store.v_ArticleLog" store:Type="Views" store:Schema="dbo" store:Name="v_ArticleLog">
+            <DefiningQuery>SELECT 
+      [v_ArticleLog].[UId_Fx] AS [UId_Fx], 
+      [v_ArticleLog].[UserEmail] AS [UserEmail], 
+      [v_ArticleLog].[ArticleId_Fx] AS [ArticleId_Fx], 
+      [v_ArticleLog].[Title] AS [Title], 
+      [v_ArticleLog].[IpAddress] AS [IpAddress], 
+      [v_ArticleLog].[DateCreated] AS [DateCreated], 
+      [v_ArticleLog].[Idx] AS [Idx]
+      FROM [dbo].[v_ArticleLog] AS [v_ArticleLog]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.Store.v_CourseDetail" store:Type="Views" store:Schema="dbo" store:Name="v_CourseDetail">
+            <DefiningQuery>SELECT 
+      [v_CourseDetail].[CourseMainIdx_FxIdx] AS [CourseMainIdx_FxIdx], 
+      [v_CourseDetail].[Title] AS [Title], 
+      [v_CourseDetail].[CourseMainType] AS [CourseMainType], 
+      [v_CourseDetail].[CourseMainTypeIdx_Fx] AS [CourseMainTypeIdx_Fx], 
+      [v_CourseDetail].[MediaCategory] AS [MediaCategory], 
+      [v_CourseDetail].[MediaFilePath] AS [MediaFilePath], 
+      [v_CourseDetail].[Content] AS [Content], 
+      [v_CourseDetail].[SortNumbers] AS [SortNumbers], 
+      [v_CourseDetail].[DateCreated] AS [DateCreated], 
+      [v_CourseDetail].[Idx] AS [Idx]
+      FROM [dbo].[v_CourseDetail] AS [v_CourseDetail]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_CourseMain" EntityType="SisleyCommnutiy_NewDBModel.Store.v_CourseMain" store:Type="Views" store:Schema="dbo" store:Name="v_CourseMain">
+            <DefiningQuery>SELECT 
+      [v_CourseMain].[Idx] AS [Idx], 
+      [v_CourseMain].[PreviewImg] AS [PreviewImg], 
+      [v_CourseMain].[Title] AS [Title], 
+      [v_CourseMain].[CourseContent] AS [CourseContent], 
+      [v_CourseMain].[SortNo] AS [SortNo], 
+      [v_CourseMain].[DateCreated] AS [DateCreated], 
+      [v_CourseMain].[ReleaseDate] AS [ReleaseDate], 
+      [v_CourseMain].[HomeShowBool] AS [HomeShowBool], 
+      [v_CourseMain].[CourseMainTypeIdx_Fx] AS [CourseMainTypeIdx_Fx], 
+      [v_CourseMain].[CourseMainType] AS [CourseMainType], 
+      [v_CourseMain].[Expr1] AS [Expr1]
+      FROM [dbo].[v_CourseMain] AS [v_CourseMain]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_SmartPerson_QA" EntityType="SisleyCommnutiy_NewDBModel.Store.v_SmartPerson_QA" store:Type="Views" store:Schema="dbo" store:Name="v_SmartPerson_QA">
+            <DefiningQuery>SELECT 
+      [v_SmartPerson_QA].[UserUId_Fx] AS [UserUId_Fx], 
+      [v_SmartPerson_QA].[UserEmail] AS [UserEmail], 
+      [v_SmartPerson_QA].[QuestionTypeId_FxIdx] AS [QuestionTypeId_FxIdx], 
+      [v_SmartPerson_QA].[AskTypeName] AS [AskTypeName], 
+      [v_SmartPerson_QA].[Idx] AS [Idx], 
+      [v_SmartPerson_QA].[AnswerContent] AS [AnswerContent], 
+      [v_SmartPerson_QA].[AnswerDate] AS [AnswerDate], 
+      [v_SmartPerson_QA].[QuestionContent] AS [QuestionContent], 
+      [v_SmartPerson_QA].[QuestionDate] AS [QuestionDate], 
+      [v_SmartPerson_QA].[StateBool] AS [StateBool], 
+      [v_SmartPerson_QA].[SmartPersonIdx_Fx] AS [SmartPersonIdx_Fx], 
+      [v_SmartPerson_QA].[DarenName] AS [DarenName], 
+      [v_SmartPerson_QA].[HeaderImg] AS [HeaderImg], 
+      [v_SmartPerson_QA].[HeadPhoto] AS [HeadPhoto]
+      FROM [dbo].[v_SmartPerson_QA] AS [v_SmartPerson_QA]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_Tab_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.Store.v_Tab_CourseDetail" store:Type="Views" store:Schema="dbo" store:Name="v_Tab_CourseDetail">
+            <DefiningQuery>SELECT 
+      [v_Tab_CourseDetail].[CourseMainIdx_FxIdx] AS [CourseMainIdx_FxIdx], 
+      [v_Tab_CourseDetail].[Title] AS [Title], 
+      [v_Tab_CourseDetail].[CourseMainType] AS [CourseMainType], 
+      [v_Tab_CourseDetail].[CourseMainTypeIdx_Fx] AS [CourseMainTypeIdx_Fx], 
+      [v_Tab_CourseDetail].[MediaCategory] AS [MediaCategory], 
+      [v_Tab_CourseDetail].[MediaFilePath] AS [MediaFilePath], 
+      [v_Tab_CourseDetail].[Content] AS [Content], 
+      [v_Tab_CourseDetail].[SortNumbers] AS [SortNumbers], 
+      [v_Tab_CourseDetail].[DateCreated] AS [DateCreated], 
+      [v_Tab_CourseDetail].[Idx] AS [Idx]
+      FROM [dbo].[v_Tab_CourseDetail] AS [v_Tab_CourseDetail]</DefiningQuery>
+          </EntitySet>
+          <EntitySet Name="v_UserArticle" EntityType="SisleyCommnutiy_NewDBModel.Store.v_UserArticle" store:Type="Views" store:Schema="dbo" store:Name="v_UserArticle">
+            <DefiningQuery>SELECT 
+      [v_UserArticle].[Idx] AS [Idx], 
+      [v_UserArticle].[UserUId_Fx] AS [UserUId_Fx], 
+      [v_UserArticle].[ForProductBool] AS [ForProductBool], 
+      [v_UserArticle].[ArticleTitle] AS [ArticleTitle], 
+      [v_UserArticle].[ArticleContent] AS [ArticleContent], 
+      [v_UserArticle].[CreatedDate] AS [CreatedDate], 
+      [v_UserArticle].[PreviewAlternatePicture] AS [PreviewAlternatePicture], 
+      [v_UserArticle].[ProductScore] AS [ProductScore], 
+      [v_UserArticle].[ProductImpression] AS [ProductImpression], 
+      [v_UserArticle].[RealName] AS [RealName], 
+      [v_UserArticle].[UserEmail] AS [UserEmail], 
+      [v_UserArticle].[HeadPhoto] AS [HeadPhoto]
+      FROM [dbo].[v_UserArticle] AS [v_UserArticle]</DefiningQuery>
+          </EntitySet>
+          <AssociationSet Name="FK_Tab_CourseDetail_Tab_CourseMain" Association="SisleyCommnutiy_NewDBModel.Store.FK_Tab_CourseDetail_Tab_CourseMain">
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+            <End Role="Tab_CourseDetail" EntitySet="Tab_CourseDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tab_CourseMain_Tab_CourseMain_Type" Association="SisleyCommnutiy_NewDBModel.Store.FK_Tab_CourseMain_Tab_CourseMain_Type">
+            <End Role="Tab_CourseMain_Type" EntitySet="Tab_CourseMain_Type" />
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tab_CourseTest_Question_Tab_CourseMain" Association="SisleyCommnutiy_NewDBModel.Store.FK_Tab_CourseTest_Question_Tab_CourseMain">
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+            <End Role="Tab_CourseTest_Question" EntitySet="Tab_CourseTest_Question" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Tab_Activity">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ActiveTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="PreviewImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="ActivityStartDate" Type="datetime" />
+          <Property Name="ActivityEndDate" Type="datetime" />
+          <Property Name="Rules" Type="nvarchar" MaxLength="50" />
+          <Property Name="Platform" Type="nvarchar" MaxLength="50" />
+          <Property Name="Prizes" Type="nvarchar" MaxLength="50" />
+          <Property Name="SharingCopyContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="DisplayHomeBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="DisplayHomePreview" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_Activity_Apply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserUIdx_Fx" Type="int" />
+          <Property Name="ActivitiesIdx_Fx" Type="int" />
+          <Property Name="DateOfApplication" Type="datetime" />
+          <Property Name="ApprovalStatus" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_Advertisement">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AdPostion" Type="nvarchar" MaxLength="50" />
+          <Property Name="AdImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="Links" Type="nvarchar" MaxLength="50" />
+          <Property Name="AdDescription" Type="ntext" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="OrderNumb" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_Article">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="PreviewPicture" Type="nvarchar" MaxLength="50" />
+          <Property Name="Content" Type="nvarchar(max)" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ReleaseDate" Type="datetime" />
+          <Property Name="HomeShowsBool" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_ArticleLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UId_Fx" Type="int" />
+          <Property Name="ArticleId_Fx" Type="int" />
+          <Property Name="IpAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainIdx_FxIdx" Type="int" />
+          <Property Name="MediaCategory" Type="nvarchar" MaxLength="50" />
+          <Property Name="MediaFilePath" Type="nvarchar" MaxLength="50" />
+          <Property Name="Content" Type="ntext" />
+          <Property Name="SortNumbers" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="PreviewImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="CourseContent" Type="nvarchar" MaxLength="500" />
+          <Property Name="SortNo" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="ReleaseDate" Type="datetime" />
+          <Property Name="HomeShowBool" Type="varchar" MaxLength="50" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainType" Type="varchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain_ViewLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UIdx" Type="int" />
+          <Property Name="CourseMainIdx" Type="int" />
+          <Property Name="IpAddress" Type="varchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseTest_Question">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainIdx_Fx" Type="int" />
+          <Property Name="QuestionText" Type="nvarchar" MaxLength="50" />
+          <Property Name="Aquestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Bquestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Cquestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Dquestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="Answer" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_CourseTestLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="int" />
+          <Property Name="CourseMainIdx_Fx" Type="int" />
+          <Property Name="TestAnswer" Type="nvarchar" MaxLength="50" />
+          <Property Name="PassBool" Type="varchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_Gift">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="GiftName" Type="nvarchar" MaxLength="50" />
+          <Property Name="GiftImgSmall" Type="nvarchar" MaxLength="50" />
+          <Property Name="GiftImgBig" Type="nvarchar" MaxLength="50" />
+          <Property Name="GiftDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="NeedPoint" Type="int" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="ExpirationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_HomeWeibo">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="EditName" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeaderImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="WeiboContent" Type="nvarchar" MaxLength="500" />
+          <Property Name="SortNo" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="HomeShowBool" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_IntegralLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="int" />
+          <Property Name="IntegralValues" Type="int" />
+          <Property Name="EventsOverview" Type="ntext" />
+          <Property Name="Date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_magazine">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MagazineQiKan" Type="nvarchar" MaxLength="50" />
+          <Property Name="MagazineImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="MagazineRar" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_magazine_Log">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="viewUserName" Type="varchar" MaxLength="50" />
+          <Property Name="viewIpAddress" Type="varchar" MaxLength="50" />
+          <Property Name="viewCreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_magazineDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MagazineIdx_Fx" Type="int" />
+          <Property Name="MultimediaCategory" Type="nvarchar" MaxLength="50" />
+          <Property Name="Path" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_magazineHomeAd">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DownlowdRarPath" Type="varchar" MaxLength="150" />
+          <Property Name="BrowserUrl" Type="varchar" MaxLength="150" />
+        </EntityType>
+        <EntityType Name="Tab_Medal">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="MedalName" Type="nvarchar" MaxLength="50" />
+          <Property Name="MedalImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="Notes" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_medalGetLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="int" />
+          <Property Name="MedalIdx_Fx" Type="int" />
+          <Property Name="GetEvent" Type="nvarchar" MaxLength="100" />
+          <Property Name="MedalNumber" Type="int" />
+          <Property Name="GetTheDate" Type="datetime" />
+          <Property Name="IpAddress" Type="varchar" MaxLength="50" />
+          <Property Name="IsValid" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_MedalProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductNeed_Medal" Type="nvarchar" MaxLength="50" />
+          <Property Name="NeedMedalCount" Type="int" />
+          <Property Name="CreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_Order">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="int" />
+          <Property Name="CounterNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="TotalPoints" Type="int" />
+          <Property Name="OrderStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="SourcesData" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_OrderDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="OrdersIdx_Fx" Type="int" />
+          <Property Name="CounterNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="GiftId" Type="int" />
+          <Property Name="IdOfGifts" Type="nvarchar" MaxLength="50" />
+          <Property Name="RequiredPoints" Type="nvarchar" MaxLength="50" />
+          <Property Name="ChildOrderStatus" Type="nvarchar" MaxLength="50" />
+          <Property Name="SourcesData" Type="nvarchar" MaxLength="50" />
+          <Property Name="CancelAgainstBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_QA_SubType">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="QaTypeIdx_Fx" Type="int" />
+          <Property Name="QaSubTypeName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_QA_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="QaTypeName" Type="nvarchar" MaxLength="50" />
+          <Property Name="SortNumb" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_QuestionAndAnswer">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ContentQuestion" Type="nvarchar" MaxLength="50" />
+          <Property Name="ContentAnswer" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateAsk" Type="datetime" />
+          <Property Name="DateAnswer" Type="datetime" />
+          <Property Name="PassBool" Type="int" />
+          <Property Name="AskUserId_Fx" Type="int" />
+          <Property Name="ManagerUserIdx_Fx" Type="int" />
+          <Property Name="QuestionSubTypeIdx_Fx" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_Smart_QA_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="AskTypeName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_SmartPerson">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="DarenName" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeaderImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="BeautyResume" Type="nvarchar" MaxLength="50" />
+          <Property Name="BeautyShare" Type="nvarchar" MaxLength="50" />
+          <Property Name="SinaShareContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="showPageBool" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_SmartPerson_QA">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="int" />
+          <Property Name="QuestionTypeId_FxIdx" Type="int" />
+          <Property Name="AnswerContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="AnswerDate" Type="datetime" />
+          <Property Name="QuestionContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="QuestionDate" Type="datetime" />
+          <Property Name="StateBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="SmartPersonIdx_Fx" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_SuperStarProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductPictures" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_TryProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductPictures" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductDescription" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="int" />
+          <Property Name="ForProductBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="ArticleTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="ArticleContent" Type="nvarchar(max)" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="PreviewAlternatePicture" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductScore" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductImpression" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductTryIdx_Fx" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_Product">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductPictures" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductOverview" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductCategoryIdx_Fx" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductImpression" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_ProductType">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="ProductCategoryName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_Reply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserArticlesIdx_fx" Type="int" />
+          <Property Name="ReplyContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="DisplayBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="ReplyTime" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_ViewLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserArticlesId_Fx" Type="int" />
+          <Property Name="IpAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="AccessDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_UserCertificate">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_FxIdx" Type="int" />
+          <Property Name="CertificateMap" Type="nvarchar" MaxLength="50" />
+          <Property Name="GetTheDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_UserCommunity">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="Password" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeadPhoto" Type="nvarchar" MaxLength="50" />
+          <Property Name="QqWeibo_Id" Type="nvarchar" MaxLength="50" />
+          <Property Name="KaixinWeibo_Id" Type="nvarchar" MaxLength="50" />
+          <Property Name="SinaWeibo_Id" Type="nvarchar" MaxLength="50" />
+          <Property Name="UserlevelIdx_FxIdx" Type="int" />
+          <Property Name="VipCardNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="VipBool" Type="varchar" MaxLength="50" />
+          <Property Name="V_SignBool" Type="varchar" MaxLength="50" />
+          <Property Name="SubscribeBool" Type="varchar" MaxLength="50" />
+          <Property Name="RegViladBool" Type="varchar" MaxLength="50" />
+          <Property Name="RealName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Birthday" Type="datetime" />
+          <Property Name="MobilePhone" Type="nvarchar" MaxLength="50" />
+          <Property Name="Province" Type="nvarchar" MaxLength="50" />
+          <Property Name="City" Type="nvarchar" MaxLength="50" />
+          <Property Name="Address" Type="nvarchar" MaxLength="50" />
+          <Property Name="ZipCode" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastLoginIp" Type="nvarchar" MaxLength="50" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="LastModificationDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_UserLevel">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="UserLevelName" Type="nvarchar" MaxLength="50" />
+          <Property Name="SortNo" Type="int" />
+        </EntityType>
+        <EntityType Name="Tab_UserManager">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="uName" Type="varchar" MaxLength="50" />
+          <Property Name="uPwd" Type="varchar" MaxLength="50" />
+          <Property Name="uRole" Type="varchar" MaxLength="50" />
+          <Property Name="uCreatedDate" Type="datetime" />
+        </EntityType>
+        <EntityType Name="Tab_UserVipCardNo">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+          <Property Name="VipCardNo" Type="varchar" MaxLength="50" />
+          <Property Name="VipHasUseBool" Type="varchar" MaxLength="50" />
+          <Property Name="VipEditDateTime" Type="datetime" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_Activity_Apply”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_Activity_Apply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" />
+          <Property Name="UserUIdx_Fx" Type="int" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="ActivitiesIdx_Fx" Type="int" />
+          <Property Name="ActiveTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateOfApplication" Type="datetime" />
+          <Property Name="ApprovalStatus" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_ArticleLog”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_ArticleLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="UId_Fx" Type="int" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="ArticleId_Fx" Type="int" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="IpAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="Idx" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_CourseDetail”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="CourseMainIdx_FxIdx" Type="int" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="CourseMainType" Type="varchar" MaxLength="50" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="int" />
+          <Property Name="MediaCategory" Type="nvarchar" MaxLength="50" />
+          <Property Name="MediaFilePath" Type="nvarchar" MaxLength="50" />
+          <Property Name="Content" Type="ntext" />
+          <Property Name="SortNumbers" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="Idx" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_CourseMain”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_CourseMain">
+          <Key>
+            <PropertyRef Name="Idx" />
+            <PropertyRef Name="Expr1" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" />
+          <Property Name="PreviewImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="CourseContent" Type="nvarchar" MaxLength="500" />
+          <Property Name="SortNo" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="ReleaseDate" Type="datetime" />
+          <Property Name="HomeShowBool" Type="varchar" MaxLength="50" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="int" />
+          <Property Name="CourseMainType" Type="varchar" MaxLength="50" />
+          <Property Name="Expr1" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_SmartPerson_QA”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_SmartPerson_QA">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="UserUId_Fx" Type="int" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="QuestionTypeId_FxIdx" Type="int" />
+          <Property Name="AskTypeName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Idx" Type="int" Nullable="false" />
+          <Property Name="AnswerContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="AnswerDate" Type="datetime" />
+          <Property Name="QuestionContent" Type="nvarchar" MaxLength="50" />
+          <Property Name="QuestionDate" Type="datetime" />
+          <Property Name="StateBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="SmartPersonIdx_Fx" Type="int" />
+          <Property Name="DarenName" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeaderImg" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeadPhoto" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_Tab_CourseDetail”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_Tab_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="CourseMainIdx_FxIdx" Type="int" />
+          <Property Name="Title" Type="nvarchar" MaxLength="50" />
+          <Property Name="CourseMainType" Type="varchar" MaxLength="50" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="int" />
+          <Property Name="MediaCategory" Type="nvarchar" MaxLength="50" />
+          <Property Name="MediaFilePath" Type="nvarchar" MaxLength="50" />
+          <Property Name="Content" Type="ntext" />
+          <Property Name="SortNumbers" Type="int" />
+          <Property Name="DateCreated" Type="datetime" />
+          <Property Name="Idx" Type="int" Nullable="false" />
+        </EntityType>
+        <!--生成过程中发现错误:
+      警告 6002: 表/视图“SisleyCommnutiy_NewDB.dbo.v_UserArticle”未定义主键。已推断出该键，并将定义创建为只读的表/视图。
+      -->
+        <EntityType Name="v_UserArticle">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="int" Nullable="false" />
+          <Property Name="UserUId_Fx" Type="int" />
+          <Property Name="ForProductBool" Type="nvarchar" MaxLength="50" />
+          <Property Name="ArticleTitle" Type="nvarchar" MaxLength="50" />
+          <Property Name="ArticleContent" Type="nvarchar(max)" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="PreviewAlternatePicture" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductScore" Type="nvarchar" MaxLength="50" />
+          <Property Name="ProductImpression" Type="nvarchar" MaxLength="50" />
+          <Property Name="RealName" Type="nvarchar" MaxLength="50" />
+          <Property Name="UserEmail" Type="nvarchar" MaxLength="50" />
+          <Property Name="HeadPhoto" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_Tab_CourseDetail_Tab_CourseMain">
+          <End Role="Tab_CourseMain" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain" Multiplicity="0..1" />
+          <End Role="Tab_CourseDetail" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseDetail">
+              <PropertyRef Name="CourseMainIdx_FxIdx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tab_CourseMain_Tab_CourseMain_Type">
+          <End Role="Tab_CourseMain_Type" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain_Type" Multiplicity="0..1" />
+          <End Role="Tab_CourseMain" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain_Type">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseMain">
+              <PropertyRef Name="CourseMainTypeIdx_Fx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tab_CourseTest_Question_Tab_CourseMain">
+          <End Role="Tab_CourseMain" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseMain" Multiplicity="0..1" />
+          <End Role="Tab_CourseTest_Question" Type="SisleyCommnutiy_NewDBModel.Store.Tab_CourseTest_Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseTest_Question">
+              <PropertyRef Name="CourseMainIdx_Fx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="SisleyCommnutiy_NewDBModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+        <EntityContainer Name="SisleyCommnutiy_NewDBEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Tab_Activity" EntityType="SisleyCommnutiy_NewDBModel.Tab_Activity" />
+          <EntitySet Name="Tab_Activity_Apply" EntityType="SisleyCommnutiy_NewDBModel.Tab_Activity_Apply" />
+          <EntitySet Name="Tab_Advertisement" EntityType="SisleyCommnutiy_NewDBModel.Tab_Advertisement" />
+          <EntitySet Name="Tab_Article" EntityType="SisleyCommnutiy_NewDBModel.Tab_Article" />
+          <EntitySet Name="Tab_ArticleLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_ArticleLog" />
+          <EntitySet Name="Tab_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseDetail" />
+          <EntitySet Name="Tab_CourseMain" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain" />
+          <EntitySet Name="Tab_CourseMain_Type" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain_Type" />
+          <EntitySet Name="Tab_CourseMain_ViewLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain_ViewLog" />
+          <EntitySet Name="Tab_CourseTest_Question" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseTest_Question" />
+          <EntitySet Name="Tab_CourseTestLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseTestLog" />
+          <EntitySet Name="Tab_Gift" EntityType="SisleyCommnutiy_NewDBModel.Tab_Gift" />
+          <EntitySet Name="Tab_HomeWeibo" EntityType="SisleyCommnutiy_NewDBModel.Tab_HomeWeibo" />
+          <EntitySet Name="Tab_IntegralLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_IntegralLog" />
+          <EntitySet Name="Tab_magazine" EntityType="SisleyCommnutiy_NewDBModel.Tab_magazine" />
+          <EntitySet Name="Tab_magazine_Log" EntityType="SisleyCommnutiy_NewDBModel.Tab_magazine_Log" />
+          <EntitySet Name="Tab_magazineDetail" EntityType="SisleyCommnutiy_NewDBModel.Tab_magazineDetail" />
+          <EntitySet Name="Tab_magazineHomeAd" EntityType="SisleyCommnutiy_NewDBModel.Tab_magazineHomeAd" />
+          <EntitySet Name="Tab_Medal" EntityType="SisleyCommnutiy_NewDBModel.Tab_Medal" />
+          <EntitySet Name="Tab_medalGetLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_medalGetLog" />
+          <EntitySet Name="Tab_MedalProduct" EntityType="SisleyCommnutiy_NewDBModel.Tab_MedalProduct" />
+          <EntitySet Name="Tab_Order" EntityType="SisleyCommnutiy_NewDBModel.Tab_Order" />
+          <EntitySet Name="Tab_OrderDetail" EntityType="SisleyCommnutiy_NewDBModel.Tab_OrderDetail" />
+          <EntitySet Name="Tab_QA_SubType" EntityType="SisleyCommnutiy_NewDBModel.Tab_QA_SubType" />
+          <EntitySet Name="Tab_QA_Type" EntityType="SisleyCommnutiy_NewDBModel.Tab_QA_Type" />
+          <EntitySet Name="Tab_QuestionAndAnswer" EntityType="SisleyCommnutiy_NewDBModel.Tab_QuestionAndAnswer" />
+          <EntitySet Name="Tab_Smart_QA_Type" EntityType="SisleyCommnutiy_NewDBModel.Tab_Smart_QA_Type" />
+          <EntitySet Name="Tab_SmartPerson" EntityType="SisleyCommnutiy_NewDBModel.Tab_SmartPerson" />
+          <EntitySet Name="Tab_SmartPerson_QA" EntityType="SisleyCommnutiy_NewDBModel.Tab_SmartPerson_QA" />
+          <EntitySet Name="Tab_SuperStarProduct" EntityType="SisleyCommnutiy_NewDBModel.Tab_SuperStarProduct" />
+          <EntitySet Name="Tab_TryProduct" EntityType="SisleyCommnutiy_NewDBModel.Tab_TryProduct" />
+          <EntitySet Name="Tab_UserArticle" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle" />
+          <EntitySet Name="Tab_UserArticle_Product" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Product" />
+          <EntitySet Name="Tab_UserArticle_ProductType" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ProductType" />
+          <EntitySet Name="Tab_UserArticle_Reply" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Reply" />
+          <EntitySet Name="Tab_UserArticle_ViewLog" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ViewLog" />
+          <EntitySet Name="Tab_UserCertificate" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserCertificate" />
+          <EntitySet Name="Tab_UserCommunity" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserCommunity" />
+          <EntitySet Name="Tab_UserLevel" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserLevel" />
+          <EntitySet Name="Tab_UserManager" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserManager" />
+          <EntitySet Name="Tab_UserVipCardNo" EntityType="SisleyCommnutiy_NewDBModel.Tab_UserVipCardNo" />
+          <EntitySet Name="v_Activity_Apply" EntityType="SisleyCommnutiy_NewDBModel.v_Activity_Apply" />
+          <EntitySet Name="v_ArticleLog" EntityType="SisleyCommnutiy_NewDBModel.v_ArticleLog" />
+          <EntitySet Name="v_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.v_CourseDetail" />
+          <EntitySet Name="v_CourseMain" EntityType="SisleyCommnutiy_NewDBModel.v_CourseMain" />
+          <EntitySet Name="v_SmartPerson_QA" EntityType="SisleyCommnutiy_NewDBModel.v_SmartPerson_QA" />
+          <EntitySet Name="v_Tab_CourseDetail" EntityType="SisleyCommnutiy_NewDBModel.v_Tab_CourseDetail" />
+          <EntitySet Name="v_UserArticle" EntityType="SisleyCommnutiy_NewDBModel.v_UserArticle" />
+          <AssociationSet Name="FK_Tab_CourseDetail_Tab_CourseMain" Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseDetail_Tab_CourseMain">
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+            <End Role="Tab_CourseDetail" EntitySet="Tab_CourseDetail" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tab_CourseMain_Tab_CourseMain_Type" Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseMain_Tab_CourseMain_Type">
+            <End Role="Tab_CourseMain_Type" EntitySet="Tab_CourseMain_Type" />
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+          </AssociationSet>
+          <AssociationSet Name="FK_Tab_CourseTest_Question_Tab_CourseMain" Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseTest_Question_Tab_CourseMain">
+            <End Role="Tab_CourseMain" EntitySet="Tab_CourseMain" />
+            <End Role="Tab_CourseTest_Question" EntitySet="Tab_CourseTest_Question" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="Tab_Activity">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ActiveTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="PreviewImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ActivityStartDate" Type="DateTime" />
+          <Property Name="ActivityEndDate" Type="DateTime" />
+          <Property Name="Rules" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Platform" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Prizes" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SharingCopyContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="DisplayHomeBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DisplayHomePreview" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_Activity_Apply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserUIdx_Fx" Type="Int32" />
+          <Property Name="ActivitiesIdx_Fx" Type="Int32" />
+          <Property Name="DateOfApplication" Type="DateTime" />
+          <Property Name="ApprovalStatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_Advertisement">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AdPostion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AdImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Links" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AdDescription" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="OrderNumb" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_Article">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="PreviewPicture" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="ReleaseDate" Type="DateTime" />
+          <Property Name="HomeShowsBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_ArticleLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UId_Fx" Type="Int32" />
+          <Property Name="ArticleId_Fx" Type="Int32" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainIdx_FxIdx" Type="Int32" />
+          <Property Name="MediaCategory" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MediaFilePath" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="SortNumbers" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <NavigationProperty Name="Tab_CourseMain" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseDetail_Tab_CourseMain" FromRole="Tab_CourseDetail" ToRole="Tab_CourseMain" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="PreviewImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CourseContent" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="SortNo" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="ReleaseDate" Type="DateTime" />
+          <Property Name="HomeShowBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="Int32" />
+          <NavigationProperty Name="Tab_CourseDetail" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseDetail_Tab_CourseMain" FromRole="Tab_CourseMain" ToRole="Tab_CourseDetail" />
+          <NavigationProperty Name="Tab_CourseMain_Type" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseMain_Tab_CourseMain_Type" FromRole="Tab_CourseMain" ToRole="Tab_CourseMain_Type" />
+          <NavigationProperty Name="Tab_CourseTest_Question" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseTest_Question_Tab_CourseMain" FromRole="Tab_CourseMain" ToRole="Tab_CourseTest_Question" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <NavigationProperty Name="Tab_CourseMain" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseMain_Tab_CourseMain_Type" FromRole="Tab_CourseMain_Type" ToRole="Tab_CourseMain" />
+        </EntityType>
+        <EntityType Name="Tab_CourseMain_ViewLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UIdx" Type="Int32" />
+          <Property Name="CourseMainIdx" Type="Int32" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_CourseTest_Question">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="CourseMainIdx_Fx" Type="Int32" />
+          <Property Name="QuestionText" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Aquestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Bquestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Cquestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Dquestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Answer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <NavigationProperty Name="Tab_CourseMain" Relationship="SisleyCommnutiy_NewDBModel.FK_Tab_CourseTest_Question_Tab_CourseMain" FromRole="Tab_CourseTest_Question" ToRole="Tab_CourseMain" />
+        </EntityType>
+        <EntityType Name="Tab_CourseTestLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="Int32" />
+          <Property Name="CourseMainIdx_Fx" Type="Int32" />
+          <Property Name="TestAnswer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="PassBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_Gift">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GiftName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="GiftImgSmall" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="GiftImgBig" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="GiftDescription" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="NeedPoint" Type="Int32" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="ExpirationDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_HomeWeibo">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="EditName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeaderImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="WeiboContent" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="SortNo" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="HomeShowBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_IntegralLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="Int32" />
+          <Property Name="IntegralValues" Type="Int32" />
+          <Property Name="EventsOverview" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="Date" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_magazine">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MagazineQiKan" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MagazineImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MagazineRar" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_magazine_Log">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="viewUserName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="viewIpAddress" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="viewCreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_magazineDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MagazineIdx_Fx" Type="Int32" />
+          <Property Name="MultimediaCategory" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Path" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_magazineHomeAd">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DownlowdRarPath" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+          <Property Name="BrowserUrl" Type="String" MaxLength="150" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_Medal">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MedalName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MedalImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Notes" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_medalGetLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="Int32" />
+          <Property Name="MedalIdx_Fx" Type="Int32" />
+          <Property Name="GetEvent" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+          <Property Name="MedalNumber" Type="Int32" />
+          <Property Name="GetTheDate" Type="DateTime" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="IsValid" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_MedalProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductDescription" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductNeed_Medal" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="NeedMedalCount" Type="Int32" />
+          <Property Name="CreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_Order">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_Fx" Type="Int32" />
+          <Property Name="CounterNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="TotalPoints" Type="Int32" />
+          <Property Name="OrderStatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SourcesData" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_OrderDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrdersIdx_Fx" Type="Int32" />
+          <Property Name="CounterNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="GiftId" Type="Int32" />
+          <Property Name="IdOfGifts" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="RequiredPoints" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ChildOrderStatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SourcesData" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CancelAgainstBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_QA_SubType">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="QaTypeIdx_Fx" Type="Int32" />
+          <Property Name="QaSubTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_QA_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="QaTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SortNumb" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_QuestionAndAnswer">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ContentQuestion" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ContentAnswer" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateAsk" Type="DateTime" />
+          <Property Name="DateAnswer" Type="DateTime" />
+          <Property Name="PassBool" Type="Int32" />
+          <Property Name="AskUserId_Fx" Type="Int32" />
+          <Property Name="ManagerUserIdx_Fx" Type="Int32" />
+          <Property Name="QuestionSubTypeIdx_Fx" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_Smart_QA_Type">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="AskTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_SmartPerson">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DarenName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeaderImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="BeautyResume" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="BeautyShare" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SinaShareContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="showPageBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_SmartPerson_QA">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="Int32" />
+          <Property Name="QuestionTypeId_FxIdx" Type="Int32" />
+          <Property Name="AnswerContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AnswerDate" Type="DateTime" />
+          <Property Name="QuestionContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="QuestionDate" Type="DateTime" />
+          <Property Name="StateBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SmartPersonIdx_Fx" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_SuperStarProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductPictures" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductDescription" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_TryProduct">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductPictures" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductDescription" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserUId_Fx" Type="Int32" />
+          <Property Name="ForProductBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ArticleTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ArticleContent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="PreviewAlternatePicture" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductScore" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductImpression" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductTryIdx_Fx" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_Product">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductPictures" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductOverview" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductCategoryIdx_Fx" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductImpression" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_ProductType">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ProductCategoryName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_Reply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserArticlesIdx_fx" Type="Int32" />
+          <Property Name="ReplyContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DisplayBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ReplyTime" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="Tab_UserArticle_ViewLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserArticlesId_Fx" Type="Int32" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AccessDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_UserCertificate">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserIdx_FxIdx" Type="Int32" />
+          <Property Name="CertificateMap" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="GetTheDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_UserCommunity">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Password" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeadPhoto" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="QqWeibo_Id" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="KaixinWeibo_Id" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SinaWeibo_Id" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="UserlevelIdx_FxIdx" Type="Int32" />
+          <Property Name="VipCardNo" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="VipBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="V_SignBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="SubscribeBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="RegViladBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="RealName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Birthday" Type="DateTime" />
+          <Property Name="MobilePhone" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Province" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="City" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Address" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ZipCode" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="LastLoginIp" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="LastModificationDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_UserLevel">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="UserLevelName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SortNo" Type="Int32" />
+        </EntityType>
+        <EntityType Name="Tab_UserManager">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="uName" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="uPwd" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="uRole" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="uCreatedDate" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="Tab_UserVipCardNo">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="VipCardNo" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="VipHasUseBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="VipEditDateTime" Type="DateTime" />
+        </EntityType>
+        <EntityType Name="v_Activity_Apply">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+          <Property Name="UserUIdx_Fx" Type="Int32" />
+          <Property Name="UserEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ActivitiesIdx_Fx" Type="Int32" />
+          <Property Name="ActiveTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateOfApplication" Type="DateTime" />
+          <Property Name="ApprovalStatus" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="v_ArticleLog">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="UId_Fx" Type="Int32" />
+          <Property Name="UserEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ArticleId_Fx" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="IpAddress" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="v_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="CourseMainIdx_FxIdx" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CourseMainType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="Int32" />
+          <Property Name="MediaCategory" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MediaFilePath" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="SortNumbers" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="v_CourseMain">
+          <Key>
+            <PropertyRef Name="Idx" />
+            <PropertyRef Name="Expr1" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+          <Property Name="PreviewImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CourseContent" Type="String" MaxLength="500" Unicode="true" FixedLength="false" />
+          <Property Name="SortNo" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="ReleaseDate" Type="DateTime" />
+          <Property Name="HomeShowBool" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="Int32" />
+          <Property Name="CourseMainType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="Expr1" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="v_SmartPerson_QA">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="UserUId_Fx" Type="Int32" />
+          <Property Name="UserEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="QuestionTypeId_FxIdx" Type="Int32" />
+          <Property Name="AskTypeName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+          <Property Name="AnswerContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="AnswerDate" Type="DateTime" />
+          <Property Name="QuestionContent" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="QuestionDate" Type="DateTime" />
+          <Property Name="StateBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="SmartPersonIdx_Fx" Type="Int32" />
+          <Property Name="DarenName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeaderImg" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeadPhoto" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <EntityType Name="v_Tab_CourseDetail">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="CourseMainIdx_FxIdx" Type="Int32" />
+          <Property Name="Title" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="CourseMainType" Type="String" MaxLength="50" Unicode="false" FixedLength="false" />
+          <Property Name="CourseMainTypeIdx_Fx" Type="Int32" />
+          <Property Name="MediaCategory" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="MediaFilePath" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="Content" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="SortNumbers" Type="Int32" />
+          <Property Name="DateCreated" Type="DateTime" />
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+        </EntityType>
+        <EntityType Name="v_UserArticle">
+          <Key>
+            <PropertyRef Name="Idx" />
+          </Key>
+          <Property Name="Idx" Type="Int32" Nullable="false" />
+          <Property Name="UserUId_Fx" Type="Int32" />
+          <Property Name="ForProductBool" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ArticleTitle" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ArticleContent" Type="String" MaxLength="Max" Unicode="true" FixedLength="false" />
+          <Property Name="CreatedDate" Type="DateTime" />
+          <Property Name="PreviewAlternatePicture" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductScore" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="ProductImpression" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="RealName" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="UserEmail" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+          <Property Name="HeadPhoto" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+        </EntityType>
+        <Association Name="FK_Tab_CourseDetail_Tab_CourseMain">
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseMain" Role="Tab_CourseMain" Multiplicity="0..1" />
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseDetail" Role="Tab_CourseDetail" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseDetail">
+              <PropertyRef Name="CourseMainIdx_FxIdx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tab_CourseMain_Tab_CourseMain_Type">
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseMain_Type" Role="Tab_CourseMain_Type" Multiplicity="0..1" />
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseMain" Role="Tab_CourseMain" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain_Type">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseMain">
+              <PropertyRef Name="CourseMainTypeIdx_Fx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_Tab_CourseTest_Question_Tab_CourseMain">
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseMain" Role="Tab_CourseMain" Multiplicity="0..1" />
+          <End Type="SisleyCommnutiy_NewDBModel.Tab_CourseTest_Question" Role="Tab_CourseTest_Question" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Tab_CourseMain">
+              <PropertyRef Name="Idx" />
+            </Principal>
+            <Dependent Role="Tab_CourseTest_Question">
+              <PropertyRef Name="CourseMainIdx_Fx" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="SisleyCommnutiy_NewDBModelStoreContainer" CdmEntityContainer="SisleyCommnutiy_NewDBEntities">
+          <EntitySetMapping Name="Tab_Activity"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Activity"><MappingFragment StoreEntitySet="Tab_Activity">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ActiveTitle" ColumnName="ActiveTitle" />
+            <ScalarProperty Name="PreviewImg" ColumnName="PreviewImg" />
+            <ScalarProperty Name="ActivityStartDate" ColumnName="ActivityStartDate" />
+            <ScalarProperty Name="ActivityEndDate" ColumnName="ActivityEndDate" />
+            <ScalarProperty Name="Rules" ColumnName="Rules" />
+            <ScalarProperty Name="Platform" ColumnName="Platform" />
+            <ScalarProperty Name="Prizes" ColumnName="Prizes" />
+            <ScalarProperty Name="SharingCopyContent" ColumnName="SharingCopyContent" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="DisplayHomeBool" ColumnName="DisplayHomeBool" />
+            <ScalarProperty Name="DisplayHomePreview" ColumnName="DisplayHomePreview" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Activity_Apply"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Activity_Apply"><MappingFragment StoreEntitySet="Tab_Activity_Apply">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUIdx_Fx" ColumnName="UserUIdx_Fx" />
+            <ScalarProperty Name="ActivitiesIdx_Fx" ColumnName="ActivitiesIdx_Fx" />
+            <ScalarProperty Name="DateOfApplication" ColumnName="DateOfApplication" />
+            <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Advertisement"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Advertisement"><MappingFragment StoreEntitySet="Tab_Advertisement">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="AdPostion" ColumnName="AdPostion" />
+            <ScalarProperty Name="AdImg" ColumnName="AdImg" />
+            <ScalarProperty Name="Links" ColumnName="Links" />
+            <ScalarProperty Name="AdDescription" ColumnName="AdDescription" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="OrderNumb" ColumnName="OrderNumb" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Article"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Article"><MappingFragment StoreEntitySet="Tab_Article">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="PreviewPicture" ColumnName="PreviewPicture" />
+            <ScalarProperty Name="Content" ColumnName="Content" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+            <ScalarProperty Name="HomeShowsBool" ColumnName="HomeShowsBool" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_ArticleLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_ArticleLog"><MappingFragment StoreEntitySet="Tab_ArticleLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UId_Fx" ColumnName="UId_Fx" />
+            <ScalarProperty Name="ArticleId_Fx" ColumnName="ArticleId_Fx" />
+            <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseDetail"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseDetail"><MappingFragment StoreEntitySet="Tab_CourseDetail">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="CourseMainIdx_FxIdx" ColumnName="CourseMainIdx_FxIdx" />
+            <ScalarProperty Name="MediaCategory" ColumnName="MediaCategory" />
+            <ScalarProperty Name="MediaFilePath" ColumnName="MediaFilePath" />
+            <ScalarProperty Name="Content" ColumnName="Content" />
+            <ScalarProperty Name="SortNumbers" ColumnName="SortNumbers" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseMain"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseMain"><MappingFragment StoreEntitySet="Tab_CourseMain">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="PreviewImg" ColumnName="PreviewImg" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="CourseContent" ColumnName="CourseContent" />
+            <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+            <ScalarProperty Name="HomeShowBool" ColumnName="HomeShowBool" />
+            <ScalarProperty Name="CourseMainTypeIdx_Fx" ColumnName="CourseMainTypeIdx_Fx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseMain_Type"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseMain_Type"><MappingFragment StoreEntitySet="Tab_CourseMain_Type">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="CourseMainType" ColumnName="CourseMainType" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseMain_ViewLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseMain_ViewLog"><MappingFragment StoreEntitySet="Tab_CourseMain_ViewLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UIdx" ColumnName="UIdx" />
+            <ScalarProperty Name="CourseMainIdx" ColumnName="CourseMainIdx" />
+            <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseTest_Question"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseTest_Question"><MappingFragment StoreEntitySet="Tab_CourseTest_Question">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="CourseMainIdx_Fx" ColumnName="CourseMainIdx_Fx" />
+            <ScalarProperty Name="QuestionText" ColumnName="QuestionText" />
+            <ScalarProperty Name="Aquestion" ColumnName="Aquestion" />
+            <ScalarProperty Name="Bquestion" ColumnName="Bquestion" />
+            <ScalarProperty Name="Cquestion" ColumnName="Cquestion" />
+            <ScalarProperty Name="Dquestion" ColumnName="Dquestion" />
+            <ScalarProperty Name="Answer" ColumnName="Answer" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_CourseTestLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_CourseTestLog"><MappingFragment StoreEntitySet="Tab_CourseTestLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserIdx_Fx" ColumnName="UserIdx_Fx" />
+            <ScalarProperty Name="CourseMainIdx_Fx" ColumnName="CourseMainIdx_Fx" />
+            <ScalarProperty Name="TestAnswer" ColumnName="TestAnswer" />
+            <ScalarProperty Name="PassBool" ColumnName="PassBool" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Gift"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Gift"><MappingFragment StoreEntitySet="Tab_Gift">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="GiftName" ColumnName="GiftName" />
+            <ScalarProperty Name="GiftImgSmall" ColumnName="GiftImgSmall" />
+            <ScalarProperty Name="GiftImgBig" ColumnName="GiftImgBig" />
+            <ScalarProperty Name="GiftDescription" ColumnName="GiftDescription" />
+            <ScalarProperty Name="NeedPoint" ColumnName="NeedPoint" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="ExpirationDate" ColumnName="ExpirationDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_HomeWeibo"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_HomeWeibo"><MappingFragment StoreEntitySet="Tab_HomeWeibo">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="EditName" ColumnName="EditName" />
+            <ScalarProperty Name="HeaderImg" ColumnName="HeaderImg" />
+            <ScalarProperty Name="WeiboContent" ColumnName="WeiboContent" />
+            <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="HomeShowBool" ColumnName="HomeShowBool" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_IntegralLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_IntegralLog"><MappingFragment StoreEntitySet="Tab_IntegralLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUId_Fx" ColumnName="UserUId_Fx" />
+            <ScalarProperty Name="IntegralValues" ColumnName="IntegralValues" />
+            <ScalarProperty Name="EventsOverview" ColumnName="EventsOverview" />
+            <ScalarProperty Name="Date" ColumnName="Date" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_magazine"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_magazine"><MappingFragment StoreEntitySet="Tab_magazine">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="MagazineQiKan" ColumnName="MagazineQiKan" />
+            <ScalarProperty Name="MagazineImg" ColumnName="MagazineImg" />
+            <ScalarProperty Name="MagazineRar" ColumnName="MagazineRar" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_magazine_Log"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_magazine_Log"><MappingFragment StoreEntitySet="Tab_magazine_Log">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="viewUserName" ColumnName="viewUserName" />
+            <ScalarProperty Name="viewIpAddress" ColumnName="viewIpAddress" />
+            <ScalarProperty Name="viewCreatedDate" ColumnName="viewCreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_magazineDetail"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_magazineDetail"><MappingFragment StoreEntitySet="Tab_magazineDetail">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="MagazineIdx_Fx" ColumnName="MagazineIdx_Fx" />
+            <ScalarProperty Name="MultimediaCategory" ColumnName="MultimediaCategory" />
+            <ScalarProperty Name="Path" ColumnName="Path" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_magazineHomeAd"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_magazineHomeAd"><MappingFragment StoreEntitySet="Tab_magazineHomeAd">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="DownlowdRarPath" ColumnName="DownlowdRarPath" />
+            <ScalarProperty Name="BrowserUrl" ColumnName="BrowserUrl" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Medal"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Medal"><MappingFragment StoreEntitySet="Tab_Medal">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="MedalName" ColumnName="MedalName" />
+            <ScalarProperty Name="MedalImg" ColumnName="MedalImg" />
+            <ScalarProperty Name="Notes" ColumnName="Notes" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_medalGetLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_medalGetLog"><MappingFragment StoreEntitySet="Tab_medalGetLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserIdx_Fx" ColumnName="UserIdx_Fx" />
+            <ScalarProperty Name="MedalIdx_Fx" ColumnName="MedalIdx_Fx" />
+            <ScalarProperty Name="GetEvent" ColumnName="GetEvent" />
+            <ScalarProperty Name="MedalNumber" ColumnName="MedalNumber" />
+            <ScalarProperty Name="GetTheDate" ColumnName="GetTheDate" />
+            <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+            <ScalarProperty Name="IsValid" ColumnName="IsValid" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_MedalProduct"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_MedalProduct"><MappingFragment StoreEntitySet="Tab_MedalProduct">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+            <ScalarProperty Name="ProductDescription" ColumnName="ProductDescription" />
+            <ScalarProperty Name="ProductNeed_Medal" ColumnName="ProductNeed_Medal" />
+            <ScalarProperty Name="NeedMedalCount" ColumnName="NeedMedalCount" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Order"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Order"><MappingFragment StoreEntitySet="Tab_Order">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserIdx_Fx" ColumnName="UserIdx_Fx" />
+            <ScalarProperty Name="CounterNo" ColumnName="CounterNo" />
+            <ScalarProperty Name="TotalPoints" ColumnName="TotalPoints" />
+            <ScalarProperty Name="OrderStatus" ColumnName="OrderStatus" />
+            <ScalarProperty Name="SourcesData" ColumnName="SourcesData" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_OrderDetail"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_OrderDetail"><MappingFragment StoreEntitySet="Tab_OrderDetail">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="OrdersIdx_Fx" ColumnName="OrdersIdx_Fx" />
+            <ScalarProperty Name="CounterNo" ColumnName="CounterNo" />
+            <ScalarProperty Name="GiftId" ColumnName="GiftId" />
+            <ScalarProperty Name="IdOfGifts" ColumnName="IdOfGifts" />
+            <ScalarProperty Name="RequiredPoints" ColumnName="RequiredPoints" />
+            <ScalarProperty Name="ChildOrderStatus" ColumnName="ChildOrderStatus" />
+            <ScalarProperty Name="SourcesData" ColumnName="SourcesData" />
+            <ScalarProperty Name="CancelAgainstBool" ColumnName="CancelAgainstBool" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_QA_SubType"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_QA_SubType"><MappingFragment StoreEntitySet="Tab_QA_SubType">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="QaTypeIdx_Fx" ColumnName="QaTypeIdx_Fx" />
+            <ScalarProperty Name="QaSubTypeName" ColumnName="QaSubTypeName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_QA_Type"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_QA_Type"><MappingFragment StoreEntitySet="Tab_QA_Type">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="QaTypeName" ColumnName="QaTypeName" />
+            <ScalarProperty Name="SortNumb" ColumnName="SortNumb" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_QuestionAndAnswer"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_QuestionAndAnswer"><MappingFragment StoreEntitySet="Tab_QuestionAndAnswer">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ContentQuestion" ColumnName="ContentQuestion" />
+            <ScalarProperty Name="ContentAnswer" ColumnName="ContentAnswer" />
+            <ScalarProperty Name="DateAsk" ColumnName="DateAsk" />
+            <ScalarProperty Name="DateAnswer" ColumnName="DateAnswer" />
+            <ScalarProperty Name="PassBool" ColumnName="PassBool" />
+            <ScalarProperty Name="AskUserId_Fx" ColumnName="AskUserId_Fx" />
+            <ScalarProperty Name="ManagerUserIdx_Fx" ColumnName="ManagerUserIdx_Fx" />
+            <ScalarProperty Name="QuestionSubTypeIdx_Fx" ColumnName="QuestionSubTypeIdx_Fx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_Smart_QA_Type"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_Smart_QA_Type"><MappingFragment StoreEntitySet="Tab_Smart_QA_Type">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="AskTypeName" ColumnName="AskTypeName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_SmartPerson"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_SmartPerson"><MappingFragment StoreEntitySet="Tab_SmartPerson">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="DarenName" ColumnName="DarenName" />
+            <ScalarProperty Name="HeaderImg" ColumnName="HeaderImg" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="BeautyResume" ColumnName="BeautyResume" />
+            <ScalarProperty Name="BeautyShare" ColumnName="BeautyShare" />
+            <ScalarProperty Name="SinaShareContent" ColumnName="SinaShareContent" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="showPageBool" ColumnName="showPageBool" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_SmartPerson_QA"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_SmartPerson_QA"><MappingFragment StoreEntitySet="Tab_SmartPerson_QA">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUId_Fx" ColumnName="UserUId_Fx" />
+            <ScalarProperty Name="QuestionTypeId_FxIdx" ColumnName="QuestionTypeId_FxIdx" />
+            <ScalarProperty Name="AnswerContent" ColumnName="AnswerContent" />
+            <ScalarProperty Name="AnswerDate" ColumnName="AnswerDate" />
+            <ScalarProperty Name="QuestionContent" ColumnName="QuestionContent" />
+            <ScalarProperty Name="QuestionDate" ColumnName="QuestionDate" />
+            <ScalarProperty Name="StateBool" ColumnName="StateBool" />
+            <ScalarProperty Name="SmartPersonIdx_Fx" ColumnName="SmartPersonIdx_Fx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_SuperStarProduct"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_SuperStarProduct"><MappingFragment StoreEntitySet="Tab_SuperStarProduct">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ProductTitle" ColumnName="ProductTitle" />
+            <ScalarProperty Name="ProductPictures" ColumnName="ProductPictures" />
+            <ScalarProperty Name="ProductDescription" ColumnName="ProductDescription" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_TryProduct"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_TryProduct"><MappingFragment StoreEntitySet="Tab_TryProduct">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ProductTitle" ColumnName="ProductTitle" />
+            <ScalarProperty Name="ProductPictures" ColumnName="ProductPictures" />
+            <ScalarProperty Name="ProductDescription" ColumnName="ProductDescription" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserArticle"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserArticle"><MappingFragment StoreEntitySet="Tab_UserArticle">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUId_Fx" ColumnName="UserUId_Fx" />
+            <ScalarProperty Name="ForProductBool" ColumnName="ForProductBool" />
+            <ScalarProperty Name="ArticleTitle" ColumnName="ArticleTitle" />
+            <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="PreviewAlternatePicture" ColumnName="PreviewAlternatePicture" />
+            <ScalarProperty Name="ProductScore" ColumnName="ProductScore" />
+            <ScalarProperty Name="ProductImpression" ColumnName="ProductImpression" />
+            <ScalarProperty Name="ProductTryIdx_Fx" ColumnName="ProductTryIdx_Fx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserArticle_Product"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Product"><MappingFragment StoreEntitySet="Tab_UserArticle_Product">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ProductPictures" ColumnName="ProductPictures" />
+            <ScalarProperty Name="ProductTitle" ColumnName="ProductTitle" />
+            <ScalarProperty Name="ProductOverview" ColumnName="ProductOverview" />
+            <ScalarProperty Name="ProductCategoryIdx_Fx" ColumnName="ProductCategoryIdx_Fx" />
+            <ScalarProperty Name="ProductImpression" ColumnName="ProductImpression" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserArticle_ProductType"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ProductType"><MappingFragment StoreEntitySet="Tab_UserArticle_ProductType">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="ProductCategoryName" ColumnName="ProductCategoryName" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserArticle_Reply"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Reply"><MappingFragment StoreEntitySet="Tab_UserArticle_Reply">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserArticlesIdx_fx" ColumnName="UserArticlesIdx_fx" />
+            <ScalarProperty Name="ReplyContent" ColumnName="ReplyContent" />
+            <ScalarProperty Name="DisplayBool" ColumnName="DisplayBool" />
+            <ScalarProperty Name="ReplyTime" ColumnName="ReplyTime" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserArticle_ViewLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ViewLog"><MappingFragment StoreEntitySet="Tab_UserArticle_ViewLog">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserArticlesId_Fx" ColumnName="UserArticlesId_Fx" />
+            <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+            <ScalarProperty Name="AccessDate" ColumnName="AccessDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserCertificate"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserCertificate"><MappingFragment StoreEntitySet="Tab_UserCertificate">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserIdx_FxIdx" ColumnName="UserIdx_FxIdx" />
+            <ScalarProperty Name="CertificateMap" ColumnName="CertificateMap" />
+            <ScalarProperty Name="GetTheDate" ColumnName="GetTheDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserCommunity"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserCommunity"><MappingFragment StoreEntitySet="Tab_UserCommunity">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+            <ScalarProperty Name="Password" ColumnName="Password" />
+            <ScalarProperty Name="HeadPhoto" ColumnName="HeadPhoto" />
+            <ScalarProperty Name="QqWeibo_Id" ColumnName="QqWeibo_Id" />
+            <ScalarProperty Name="KaixinWeibo_Id" ColumnName="KaixinWeibo_Id" />
+            <ScalarProperty Name="SinaWeibo_Id" ColumnName="SinaWeibo_Id" />
+            <ScalarProperty Name="UserlevelIdx_FxIdx" ColumnName="UserlevelIdx_FxIdx" />
+            <ScalarProperty Name="VipCardNo" ColumnName="VipCardNo" />
+            <ScalarProperty Name="VipBool" ColumnName="VipBool" />
+            <ScalarProperty Name="V_SignBool" ColumnName="V_SignBool" />
+            <ScalarProperty Name="SubscribeBool" ColumnName="SubscribeBool" />
+            <ScalarProperty Name="RegViladBool" ColumnName="RegViladBool" />
+            <ScalarProperty Name="RealName" ColumnName="RealName" />
+            <ScalarProperty Name="Birthday" ColumnName="Birthday" />
+            <ScalarProperty Name="MobilePhone" ColumnName="MobilePhone" />
+            <ScalarProperty Name="Province" ColumnName="Province" />
+            <ScalarProperty Name="City" ColumnName="City" />
+            <ScalarProperty Name="Address" ColumnName="Address" />
+            <ScalarProperty Name="ZipCode" ColumnName="ZipCode" />
+            <ScalarProperty Name="LastLoginIp" ColumnName="LastLoginIp" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="LastModificationDate" ColumnName="LastModificationDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserLevel"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserLevel"><MappingFragment StoreEntitySet="Tab_UserLevel">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserLevelName" ColumnName="UserLevelName" />
+            <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserManager"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserManager"><MappingFragment StoreEntitySet="Tab_UserManager">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="uName" ColumnName="uName" />
+            <ScalarProperty Name="uPwd" ColumnName="uPwd" />
+            <ScalarProperty Name="uRole" ColumnName="uRole" />
+            <ScalarProperty Name="uCreatedDate" ColumnName="uCreatedDate" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="Tab_UserVipCardNo"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.Tab_UserVipCardNo"><MappingFragment StoreEntitySet="Tab_UserVipCardNo">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="VipCardNo" ColumnName="VipCardNo" />
+            <ScalarProperty Name="VipHasUseBool" ColumnName="VipHasUseBool" />
+            <ScalarProperty Name="VipEditDateTime" ColumnName="VipEditDateTime" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_Activity_Apply"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_Activity_Apply"><MappingFragment StoreEntitySet="v_Activity_Apply">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUIdx_Fx" ColumnName="UserUIdx_Fx" />
+            <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+            <ScalarProperty Name="ActivitiesIdx_Fx" ColumnName="ActivitiesIdx_Fx" />
+            <ScalarProperty Name="ActiveTitle" ColumnName="ActiveTitle" />
+            <ScalarProperty Name="DateOfApplication" ColumnName="DateOfApplication" />
+            <ScalarProperty Name="ApprovalStatus" ColumnName="ApprovalStatus" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_ArticleLog"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_ArticleLog"><MappingFragment StoreEntitySet="v_ArticleLog">
+            <ScalarProperty Name="UId_Fx" ColumnName="UId_Fx" />
+            <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+            <ScalarProperty Name="ArticleId_Fx" ColumnName="ArticleId_Fx" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="IpAddress" ColumnName="IpAddress" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_CourseDetail"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_CourseDetail"><MappingFragment StoreEntitySet="v_CourseDetail">
+            <ScalarProperty Name="CourseMainIdx_FxIdx" ColumnName="CourseMainIdx_FxIdx" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="CourseMainType" ColumnName="CourseMainType" />
+            <ScalarProperty Name="CourseMainTypeIdx_Fx" ColumnName="CourseMainTypeIdx_Fx" />
+            <ScalarProperty Name="MediaCategory" ColumnName="MediaCategory" />
+            <ScalarProperty Name="MediaFilePath" ColumnName="MediaFilePath" />
+            <ScalarProperty Name="Content" ColumnName="Content" />
+            <ScalarProperty Name="SortNumbers" ColumnName="SortNumbers" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_CourseMain"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_CourseMain"><MappingFragment StoreEntitySet="v_CourseMain">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="PreviewImg" ColumnName="PreviewImg" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="CourseContent" ColumnName="CourseContent" />
+            <ScalarProperty Name="SortNo" ColumnName="SortNo" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="ReleaseDate" ColumnName="ReleaseDate" />
+            <ScalarProperty Name="HomeShowBool" ColumnName="HomeShowBool" />
+            <ScalarProperty Name="CourseMainTypeIdx_Fx" ColumnName="CourseMainTypeIdx_Fx" />
+            <ScalarProperty Name="CourseMainType" ColumnName="CourseMainType" />
+            <ScalarProperty Name="Expr1" ColumnName="Expr1" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_SmartPerson_QA"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_SmartPerson_QA"><MappingFragment StoreEntitySet="v_SmartPerson_QA">
+            <ScalarProperty Name="UserUId_Fx" ColumnName="UserUId_Fx" />
+            <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+            <ScalarProperty Name="QuestionTypeId_FxIdx" ColumnName="QuestionTypeId_FxIdx" />
+            <ScalarProperty Name="AskTypeName" ColumnName="AskTypeName" />
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="AnswerContent" ColumnName="AnswerContent" />
+            <ScalarProperty Name="AnswerDate" ColumnName="AnswerDate" />
+            <ScalarProperty Name="QuestionContent" ColumnName="QuestionContent" />
+            <ScalarProperty Name="QuestionDate" ColumnName="QuestionDate" />
+            <ScalarProperty Name="StateBool" ColumnName="StateBool" />
+            <ScalarProperty Name="SmartPersonIdx_Fx" ColumnName="SmartPersonIdx_Fx" />
+            <ScalarProperty Name="DarenName" ColumnName="DarenName" />
+            <ScalarProperty Name="HeaderImg" ColumnName="HeaderImg" />
+            <ScalarProperty Name="HeadPhoto" ColumnName="HeadPhoto" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_Tab_CourseDetail"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_Tab_CourseDetail"><MappingFragment StoreEntitySet="v_Tab_CourseDetail">
+            <ScalarProperty Name="CourseMainIdx_FxIdx" ColumnName="CourseMainIdx_FxIdx" />
+            <ScalarProperty Name="Title" ColumnName="Title" />
+            <ScalarProperty Name="CourseMainType" ColumnName="CourseMainType" />
+            <ScalarProperty Name="CourseMainTypeIdx_Fx" ColumnName="CourseMainTypeIdx_Fx" />
+            <ScalarProperty Name="MediaCategory" ColumnName="MediaCategory" />
+            <ScalarProperty Name="MediaFilePath" ColumnName="MediaFilePath" />
+            <ScalarProperty Name="Content" ColumnName="Content" />
+            <ScalarProperty Name="SortNumbers" ColumnName="SortNumbers" />
+            <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+          <EntitySetMapping Name="v_UserArticle"><EntityTypeMapping TypeName="SisleyCommnutiy_NewDBModel.v_UserArticle"><MappingFragment StoreEntitySet="v_UserArticle">
+            <ScalarProperty Name="Idx" ColumnName="Idx" />
+            <ScalarProperty Name="UserUId_Fx" ColumnName="UserUId_Fx" />
+            <ScalarProperty Name="ForProductBool" ColumnName="ForProductBool" />
+            <ScalarProperty Name="ArticleTitle" ColumnName="ArticleTitle" />
+            <ScalarProperty Name="ArticleContent" ColumnName="ArticleContent" />
+            <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+            <ScalarProperty Name="PreviewAlternatePicture" ColumnName="PreviewAlternatePicture" />
+            <ScalarProperty Name="ProductScore" ColumnName="ProductScore" />
+            <ScalarProperty Name="ProductImpression" ColumnName="ProductImpression" />
+            <ScalarProperty Name="RealName" ColumnName="RealName" />
+            <ScalarProperty Name="UserEmail" ColumnName="UserEmail" />
+            <ScalarProperty Name="HeadPhoto" ColumnName="HeadPhoto" />
+          </MappingFragment></EntityTypeMapping></EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2008/10/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram Name="SisleyModel">
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Activity" Width="1.5" PointX="0.75" PointY="0.75" Height="3.3071704101562496" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Activity_Apply" Width="1.5" PointX="2.75" PointY="0.75" Height="1.9700325520833335" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Advertisement" Width="1.5" PointX="2.75" PointY="3.75" Height="2.3520719401041656" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Article" Width="1.5" PointX="4.75" PointY="0.75" Height="2.3520719401041656" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_ArticleLog" Width="1.5" PointX="4.75" PointY="4.75" Height="1.9700325520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseDetail" Width="1.5" PointX="6.75" PointY="0.75" Height="2.3520719401041665" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain" Width="1.5" PointX="6.75" PointY="4.75" Height="2.7341113281249996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain_Type" Width="1.5" PointX="0.75" PointY="7.75" Height="1.5879931640624996" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseMain_ViewLog" Width="1.5" PointX="2.75" PointY="7.75" Height="1.9700325520833317" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseTest_Question" Width="1.5" PointX="8.75" PointY="0.75" Height="2.5430916341145853" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_CourseTestLog" Width="1.5" PointX="8.75" PointY="4.75" Height="2.1610522460937531" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Gift" Width="1.5" PointX="4.75" PointY="8.75" Height="2.5430916341145817" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_HomeWeibo" Width="1.5" PointX="6.75" PointY="8.75" Height="2.3520719401041674" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_IntegralLog" Width="1.5" PointX="8.75" PointY="7.75" Height="1.9700325520833388" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_magazine" Width="1.5" PointX="10.75" PointY="0.75" Height="1.9700325520833388" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_magazine_Log" Width="1.5" PointX="0.75" PointY="10.75" Height="1.7790128580729174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_magazineDetail" Width="1.5" PointX="10.75" PointY="3.75" Height="1.9700325520833388" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_magazineHomeAd" Width="1.5" PointX="10.75" PointY="6.75" Height="1.5879931640625031" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Medal" Width="1.5" PointX="8.75" PointY="10.75" Height="1.7790128580729174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_medalGetLog" Width="1.5" PointX="10.75" PointY="9.75" Height="2.5430916341145888" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_MedalProduct" Width="1.5" PointX="12.75" PointY="0.75" Height="2.1610522460937531" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Order" Width="1.5" PointX="2.75" PointY="12.75" Height="2.3520719401041674" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_OrderDetail" Width="1.5" PointX="12.75" PointY="3.75" Height="2.9251310221354174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_QA_SubType" Width="1.5" PointX="4.75" PointY="12.75" Height="1.5879931640625102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_QA_Type" Width="1.5" PointX="12.75" PointY="7.75" Height="1.5879931640625102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_QuestionAndAnswer" Width="1.5" PointX="12.75" PointY="10.75" Height="2.7341113281250102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_Smart_QA_Type" Width="1.5" PointX="6.75" PointY="13.75" Height="1.3969734700520746" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_SmartPerson" Width="1.5" PointX="8.75" PointY="13.75" Height="2.7341113281250102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_SmartPerson_QA" Width="1.5" PointX="14.75" PointY="0.75" Height="2.7341113281250102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_SuperStarProduct" Width="1.5" PointX="14.75" PointY="4.75" Height="1.9700325520833246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_TryProduct" Width="1.5" PointX="14.75" PointY="7.75" Height="1.9700325520833246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle" Width="1.5" PointX="14.75" PointY="10.75" Height="2.9251310221354174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Product" Width="1.5" PointX="10.75" PointY="14.75" Height="2.1610522460937602" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ProductType" Width="1.5" PointX="12.75" PointY="14.75" Height="1.3969734700520746" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_Reply" Width="1.5" PointX="14.75" PointY="14.75" Height="1.9700325520833246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserArticle_ViewLog" Width="1.5" PointX="16.75" PointY="0.75" Height="1.7790128580729174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserCertificate" Width="1.5" PointX="0.75" PointY="16.75" Height="1.7790128580729174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserCommunity" Width="1.5" PointX="2.75" PointY="16.75" Height="5.4083870442708246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserLevel" Width="1.5" PointX="16.75" PointY="3.75" Height="1.5879931640625102" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserManager" Width="1.5" PointX="4.75" PointY="16.75" Height="1.9700325520833246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.Tab_UserVipCardNo" Width="1.5" PointX="16.75" PointY="6.75" Height="1.7790128580729174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_Activity_Apply" Width="1.5" PointX="16.75" PointY="9.75" Height="2.3520719401041674" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_ArticleLog" Width="1.5" PointX="16.75" PointY="13.75" Height="2.3520719401041674" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_CourseDetail" Width="1.5" PointX="6.75" PointY="17.75" Height="2.9251310221354174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_CourseMain" Width="1.5" PointX="8.75" PointY="17.75" Height="3.1161507161458246" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_SmartPerson_QA" Width="1.5" PointX="10.75" PointY="17.75" Height="3.6892097981770746" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_Tab_CourseDetail" Width="1.5" PointX="12.75" PointY="17.75" Height="2.9251310221354174" IsExpanded="true" />
+        <EntityTypeShape EntityType="SisleyCommnutiy_NewDBModel.v_UserArticle" Width="1.5" PointX="14.75" PointY="17.75" Height="3.3071704101562318" IsExpanded="true" />
+        <AssociationConnector Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseDetail_Tab_CourseMain" >
+          <ConnectorPoint PointX="7.5" PointY="4.75" />
+          <ConnectorPoint PointX="7.5" PointY="3.2930916341145831" />
+        </AssociationConnector>
+        <AssociationConnector Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseMain_Tab_CourseMain_Type" >
+          <ConnectorPoint PointX="1.5" PointY="7.75" />
+          <ConnectorPoint PointX="1.5" PointY="7.2662657760416671" />
+          <ConnectorPoint PointX="6.75" PointY="7.2662657760416671" />
+        </AssociationConnector>
+        <AssociationConnector Association="SisleyCommnutiy_NewDBModel.FK_Tab_CourseTest_Question_Tab_CourseMain" >
+          <ConnectorPoint PointX="8.25" PointY="4.75" />
+          <ConnectorPoint PointX="8.625" PointY="4.375" />
+          <ConnectorPoint PointX="8.625" PointY="3.8591113281249996" />
+          <ConnectorPoint PointX="8.375" PointY="3.8591113281249996" />
+          <ConnectorPoint PointX="8.75" PointY="3.4841113281249996" />
+        </AssociationConnector>
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>

@@ -1,0 +1,101 @@
+/*******************************************************************************************************
+* DateTime: 2012/9/5 15:13:22		IP: 127.0.0.1()		Brower: WinNT  IE9
+* DateTime: 2012/9/5 15:13:22		IP: 127.0.0.1()		Brower: WinNT  IE9
+* DateTime: 2012/9/5 15:13:22		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.InvalidOperationException: 超时时间已到。超时时间已到，但是尚未从池中获取连接。出现这种情况可能是因为所有池连接均在使用，并且达到了最大池大小。
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 16:37:54		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 16:37:54		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 17:14:35		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 17:14:35		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 18:20:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 18:20:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 18:53:29		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/5 18:53:30		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+

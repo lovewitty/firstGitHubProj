@@ -1,0 +1,11 @@
+﻿*{padding:0;margin:0;}
+html{border:none;/*overflow-x:hidden;*/overflow-y:auto;}
+.html{overflow:hidden;}
+form,ul,li,ol,p{margin:0;padding:0;list-style:none;display:block;vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:12px;margin:0;padding:0;display:block;}
+ul,ol,li,dl,dt,dd{list-style:none;margin:0;padding:0;}
+a{outline:none;}
+a:active,a:hover,a:link,a:visited{text-decoration:none;}
+img{border:0;}
+.clr{clear:both;}
+body{font-size:12px;margin:0;padding:0;}

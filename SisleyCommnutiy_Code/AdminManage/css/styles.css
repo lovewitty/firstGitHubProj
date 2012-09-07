@@ -1,0 +1,244 @@
+body {
+	background-image:url(groundpan3.jpg);
+	background-repeat:no-repeat;
+	FONT-FAMILY: Arial, Helvetica, sans-serif;
+	FONT-SIZE: 12px;
+	text-decoration: none;
+	color:#000000;
+	BACKGROUND-COLOR:#FFFFFF;
+	line-height: 20px;
+	SCROLLBAR-ARROW-COLOR: black;
+	SCROLLBAR-FACE-COLOR: #ffffff;
+	SCROLLBAR-HIGHLIGHT-COLOR: #acacac;
+	SCROLLBAR-SHADOW-COLOR: #acacac;
+	SCROLLBAR-3DLIGHT-COLOR: #ffffff;
+	SCROLLBAR-TRACK-COLOR: #f8f8f8;
+	SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+	border-top-style: none;
+	border-bottom-style: none;
+	background-attachment: fixed;
+	border-right-style: none;
+	border-left-style: none;
+	margin-right: 2px;
+	margin-left: 2px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+.bodyTop{
+	overflow: visible;
+}
+p {
+	font-size: 12px;
+	text-align: left;
+}
+
+table{
+	border-collapse: collapse;
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+}
+.tbShow{
+	border-collapse: collapse;
+	padding: 0px;
+	cellpadding:0px;
+	cellspacing:1px;
+	border:1px solid,#6699ff;
+	
+	width: 70%;
+
+	
+}
+.th {
+/* background-image:url(bg1.gif); */
+background-color:#5887A5; /* #007db5;*/
+	font-size: 12px;
+	text-align: center;
+	white-space: pre;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 200%;
+}
+.thCalender {
+	background-color:#007db5;
+	font-size: 16px;
+	text-align: center;
+	white-space: pre;
+	font-weight: normal;
+	color: #FFFFFF;
+	line-height: 200%;
+}
+.tdCalender {
+	border-color:#6699ff;
+	white-space: pre;
+	font-size: 16px;
+	text-align: center;
+	white-space: pre;
+	font-weight: normal;
+	line-height: 200%;
+}
+.td {
+	border-color:#6699ff;
+	white-space: pre;
+}
+.total {
+	white-space: pre;
+	background-color: bccbe0;
+}
+.tdHigh {
+	border-color:#6699ff;
+	white-space: pre;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+td {
+	font-size: 12px;
+	padding-left: 2px;
+}
+.tbTitle {
+	text-align: right;
+}
+.number {
+	text-align: right;
+}
+form{
+	text-align: center;
+}
+textarea {
+	BACKGROUND-COLOR: #ffffff;
+	color:#000000;
+	background-image: none;
+	BORDER-BOTTOM: #006cb5 1px solid;
+	BORDER-LEFT: #006cb5 1px solid;
+	BORDER-RIGHT: #006cb5 1px solid;
+	BORDER-TOP:#006cb5 1px solid;
+	cursor: hand;
+	font-size: 12px;
+}
+Input[type="text"]{
+	border: 1px solid #006cb5;
+    BACKGROUND-COLOR: #ffffff;
+	color:#000000;
+	background-image: none;
+	font-size: 12px;
+	cursor: hand;
+}
+
+.textField{
+	HEIGHT: 18px;
+}
+.textTop{
+	HEIGHT: 18px;
+}
+.textFieldB{
+	HEIGHT: 14px;
+	text-align: right;
+	position: relative;
+	top: -1px; 
+	clip: rect()
+}
+.textFieldR{
+	HEIGHT: 18px;
+	text-align: right;
+}
+select{
+	border: 1px solid #006cb5;
+    BACKGROUND-COLOR: #ffffff;
+	color:#000000;
+	background-image: none;
+	HEIGHT: 18px;
+	font-size: 12px;
+	cursor: hand;
+    width: 62px;
+}
+A{COLOR: #007db5;}
+A:hover{
+	COLOR: #FF0000;
+	TEXT-DECORATION:none;
+	position: relative;
+	left: 1px; 
+	top: 1px; 
+	clip: rect()
+}
+a:link {
+	font-size: 12px;
+	color: #000000;
+}
+a:active {
+	font-size: 12px;
+	color: #FF0000;
+}
+a:visited {
+	font-size: 12px;
+	color: #000000;
+}
+
+.list {
+	text-align: center;
+	font-size: 12px;
+}
+
+.over {
+	filter: BlendTrans(Duration=5);
+	position: relative;
+	left: 1px; 
+	top: 1px; 
+	clip: rect()
+}
+.out {
+	filter: alpha(opacity=70);
+}
+.important {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 12px;
+}
+.inputDownLine{
+	border-left-width:0;
+	border-right-width:0;
+	border-top-width:0;
+}
+
+.importantTitle {
+	color: #FF0000;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.tbInput {
+	white-space: pre;
+	border-collapse: collapse;
+	padding: 0px;
+	cellpadding:0px;
+	cellspacing:1px;
+}
+hr {
+	height: 1px;
+	width: 98%;
+	color:#FF0000;
+}
+.TitleTb {
+	background-color: #eeeeee;
+	font-size: 14px;
+}
+table {
+	text-align: left;
+    width: 92%;
+}
+.Title {
+	font-size: 18px;
+	text-align: center;
+}
+.tbSalary {
+	font-size: 10px;
+	text-align: center;
+}
+.btn {
+ BORDER-RIGHT: #7b9ebd 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #7b9ebd 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#cecfde); BORDER-LEFT: #7b9ebd 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #7b9ebd 1px solid;
+}
+.btn_mouseout {
+ BORDER-RIGHT: #3399FF 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #3399FF 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#9EBFEA); BORDER-LEFT: #3399FF 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #3399FF 1px solid
+}
+.btn_mouseover {
+ BORDER-RIGHT: #000000 1px solid; PADDING-RIGHT: 2px; BORDER-TOP: #000000 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#CCDDF4); BORDER-LEFT: #000000 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; BORDER-BOTTOM: #000000 1px solid
+}

@@ -1,0 +1,25 @@
+/*******************************************************************************************************
+* DateTime: 2012/9/6 14:05:08		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/6 17:04:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/adminmanage/productTryEdit.aspx
+INSERT INTO Tab_TryProduct (ProductTitle ,ProductPictures ,ProductDescription ,TotalCount ,LeftCount ,DateCreated,currentBool,ProductPictures2,ProductPictures3,ProductPictures4) 
+                                            VALUES ('试用产品ABCDE' ,'d75a689948f0468193b58a5c2440675c_fenmi.jpg' , '放大所发生的','30' ,'30','yes' ,getdate(),'80e9c65588bd4cf9a5741196011391fc_fenmi.jpg','ce5fe27f878b41ab842d863fce4bbead_fenmi.jpg','ab332bec753542ac82b4b02da0176e71_fenmi.jpg'); select @@identity
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/6 19:06:12		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/6 19:06:13		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+

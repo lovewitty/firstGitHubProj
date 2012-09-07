@@ -1,0 +1,1 @@
+select top 1 Title from Tab_Y_Article where UserId='1' order by 1 desc

@@ -1,0 +1,94 @@
+﻿
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Cmn
+{
+    /// <summary>
+    /// 关键字过滤
+    /// </summary>
+    public class WordSearch
+    {
+        private Dictionary<char, IList<string>> keyDict;
+        public WordSearch(string keyList)
+        {
+            HandleKeyWords(keyList);
+        }
+
+        private void HandleKeyWords(string text)
+        {
+            if (string.IsNullOrEmpty(text))
+            {
+                keyDict = new Dictionary<char, IList<string>>();
+            }
+            else
+            {
+                string[] strList = text.Split('|');
+                keyDict = new Dictionary<char, IList<string>>(strList.Length / 4);
+                foreach (string s in strList)
+                {
+                    if (s == "")
+                    {
+                        continue;
+                    }
+                    if (keyDict.ContainsKey(s[0]))
+                    {
+                        keyDict[s[0]].Add(s);
+                    }
+                    else
+                    {
+                        keyDict.Add(s[0], new List<string> { s });
+                    }
+                }
+            }
+        }
+
+        public string Filter(string str)
+        {
+            if (string.IsNullOrEmpty(str))
+            {
+                return string.Empty;
+            }
+            int len = str.Length;
+            StringBuilder sb = new StringBuilder(len);
+            bool isOK = true;
+            for (int i = 0; i < len; i++)
+            {
+                if (keyDict.ContainsKey(str))
+                {
+                    foreach (string s in keyDict[str])
+                    {
+                        isOK = true;
+                        int j = i;
+                        foreach (char c in s)
+                        {
+                            if (j >= len || c != str[j++])
+                            {
+                                isOK = false;
+                                break;
+                            }
+                        }
+                        if (isOK)
+                        {
+                            i += s.Length - 1;
+                            sb.Append('*', s.Length);
+                            break;
+                        }
+
+                    }
+                    if (!isOK)
+                    {
+                        sb.Append(str);
+                    }
+                }
+                else
+                {
+                    sb.Append(str);
+                }
+            }
+            return sb.ToString();
+        }
+
+    }
+}

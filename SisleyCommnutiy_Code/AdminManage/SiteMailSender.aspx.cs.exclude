@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+using DBEntity;
+
+public partial class AdminManage_SiteMailSender : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        VerfiyAdmin.CheckAdminLogin(this);
+    }
+
+    protected void btnEdt_Click(object sender, EventArgs e)
+    {
+        var recvs = txtRecve.Text.Trim();
+        if (string.IsNullOrEmpty(recvs)) return;
+        var recv = recvs.Split(";".ToCharArray());
+        if (null == recv || recv.Length < 1) return;
+        var recvers = recv.Where(k => !string.IsNullOrEmpty(k)).ToList();
+        var opt = new Tab_Y_SiteMail();
+        foreach (var item in recvers)
+        {
+            if (null == item) continue;
+            opt.AddNew(new Tab_Y_SiteMail { 
+                CreateDate=DateTime.Now,
+                IsOpened=false,
+                IsSysMail=CheckBox1.Checked,
+                MailSubject = Server.HtmlEncode(txtTitle.Text.Trim()),
+                MailContent=Server.HtmlEncode(txtContent.Text.Trim()),
+                Sender="admin",
+                RecverLoginName=item,
+            });
+        }
+        Cmn.Js.ShowAlert("操作成功");
+        
+        Cmn.Js.ExeScript("window.location.href='SiteMailSender.aspx'");
+    }
+}

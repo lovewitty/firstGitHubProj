@@ -1,0 +1,458 @@
+/*******************************************************************************************************
+* DateTime: 2012/9/4 11:08:17		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/trial_tab2.aspx
+4
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 11:11:30		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:10924/SisleyCommnutiy_Code/trial_tab2.aspx
+4
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 11:25:47		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/trial_zone.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 11:46:58		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/trial_zone.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 13:52:04		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 13:52:04		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 13:55:28		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 13:55:28		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 14:41:08		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:10924/SisleyCommnutiy_Code/Login.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 16:06:26		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 16:06:26		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 16:06:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 16:06:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:23:46		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:23:46		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:58:06		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:58:06		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:58:08		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 17:58:08		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 18:43:42		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 18:43:44		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 19:03:24		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 19:03:24		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 20:32:13		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 20:32:13		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 21:17:46		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 21:17:46		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 21:21:10		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 21:21:10		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:14:35		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:14:35		IP: 127.0.0.1()		Brower: WinNT  IE7
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:39:12		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:39:50		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:39:50		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:40:02		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+GIFT:48 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:40:02		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+Gift:48 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:24		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+GIFT:48 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:24		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+Gift:48 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:30		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=54
+GIFT:54 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:30		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=54
+Gift:54 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:40		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=72
+GIFT:72 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:47:40		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=72
+Gift:72 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:59:18		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 22:59:18		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:05:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:05:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:06:44		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+Idx=1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:06:51		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:06:51		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:10:52		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+GIFT:48 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:10:52		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+Gift:48 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:17:42		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=131
+GIFT:131 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:17:42		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=131
+Gift:131 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:18:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=152
+GIFT:152 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:18:20		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=152
+Gift:152 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:20:14		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+Idx=29
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:20:16		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 29
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:20:16		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=29 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:20:34		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+GIFT:20 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:20:34		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20
+Gift:20 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:22:35		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20&GiftCount=-9999999
+GIFT:20 COUNT:-9999999
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:22:35		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=20&GiftCount=-9999999
+Gift:20 Count:-9999999
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:22:47		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+GIFT:48 COUNT:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:22:47		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/giftCart.aspx?GiftID=48
+Gift:48 Count:1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:29:02		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:29:02		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:29:23		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select RealName, HeadPhoto,AvailablePoints from Tab_UserCommunity where Idx = 1
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:29:23		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/sisley-prestige-club.aspx
+select top 1 ActiveTitle from v_Activity_Apply where UserUIdx_Fx=1 order by 1 desc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:51:50		IP: 192.168.83.24()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/9/4 23:53:16		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/index.aspx
+System.Data.SqlClient.SqlException (0x80131904): 在与 SQL Server 建立连接时出现与网络相关的或特定于实例的错误。未找到或无法访问服务器。请验证实例名称是否正确并且 SQL Server 已配置为允许远程连接。 (provider: Named Pipes Provider, error: 40 - 无法打开到 SQL Server 的连接)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, Boolean ignoreSniOpenTimeout, Int64 timerExpire, Boolean encrypt, Boolean trustServerCert, Boolean integratedSecurity)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, Boolean ignoreSniOpenTimeout, TimeoutTimer timeout, SqlConnection owningObject)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, Boolean redirectedUserInstance, SqlConnection owningObject, SqlConnectionString connectionOptions, TimeoutTimer timeout)
+   在 System.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(SqlConnection owningObject, TimeoutTimer timeout, SqlConnectionString connectionOptions, String newPassword, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, Object providerInfo, String newPassword, SqlConnection owningObject, Boolean redirectedUserInstance)
+   在 System.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   在 System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   在 System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   在 System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   在 System.Data.SqlClient.SqlConnection.Open()
+   在 SqlHelper.ExecuteDataset(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 531
+   在 SqlHelper.ExecuteDataset(CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 490
+   在 DBEntity.Tab_Advertisement.GetAdSingle(String AdPostion) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\DBEntity\Tab_advertisement.cs:行号 75
+   在 index.Ad_HomePosition() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\index.aspx.cs:行号 49
+*******************************************************************************************************/
+

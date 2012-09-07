@@ -1,0 +1,136 @@
+/*******************************************************************************************************
+* DateTime: 2012/8/24 9:59:04		IP: 0.0.0.0()		Brower: WinNT  Chrome21
+* Url : http://localhost:802/login.aspx
+uEmail=756380905@qq.com,uPwd=abc,viladCode=f9cf
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 14:48:43		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.FormatException: 索引(从零开始)必须大于或等于零，且小于参数列表的大小。
+   在 System.Text.StringBuilder.AppendFormat(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(IFormatProvider provider, String format, Object[] args)
+   在 System.String.Format(String format, Object arg0, Object arg1, Object arg2)
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 63
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 14:49:55		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.ArgumentNullException: 值不能为 null。
+参数名: commandText
+   在 SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 171
+   在 SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 341
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 261
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 235
+   在 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 214
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 82
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 14:52:05		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:13037/SisleyCommnutiy_Code/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.ArgumentNullException: 值不能为 null。
+参数名: commandText
+   在 SqlHelper.PrepareCommand(SqlCommand command, SqlConnection connection, SqlTransaction transaction, CommandType commandType, String commandText, SqlParameter[] commandParameters, Boolean& mustCloseConnection) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 171
+   在 SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 341
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 261
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 235
+   在 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 214
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 82
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 14:53:31		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:13037/SisleyCommnutiy_Code/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.Data.SqlClient.SqlException (0x80131904): '1' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 344
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 261
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 235
+   在 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 214
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 82
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 14:55:23		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://localhost:13037/SisleyCommnutiy_Code/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.Data.SqlClient.SqlException (0x80131904): '1' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(DbAsyncResult result, String methodName, Boolean sendToPipe)
+   在 System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   在 SqlHelper.ExecuteNonQuery(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 344
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 261
+   在 SqlHelper.ExecuteNonQuery(String connectionString, CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 235
+   在 SqlHelper.ExecuteNonQuery(CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 214
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 82
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:21:25		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=92c0
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:25:52		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=773d
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:39:04		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/data2flash/APICourse.aspx?rep=coursetest&cmId=1&TestScore=80&PassBool=yes
+System.Data.SqlClient.SqlException (0x80131904): '=' 附近有语法错误。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning()
+   在 System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   在 System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteScalar()
+   在 SqlHelper.ExecuteScalar(SqlConnection connection, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 1237
+   在 SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText, SqlParameter[] commandParameters) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 1153
+   在 SqlHelper.ExecuteScalar(String connectionString, CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 1128
+   在 SqlHelper.ExecuteScalar(CommandType commandType, String commandText) 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\App_Code\SqlHelper.cs:行号 1106
+   在 data2flash_APICourse.AddCourseTest_Log() 位置 d:\_希思黎社区\数据库和源代码\SisleyCommnutiy_Code\data2flash\APICourse.aspx.cs:行号 129
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:53:24		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/sisley-beauty-garden.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=6f05
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:55:19		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=53fc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 15:55:36		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=82dc
+*******************************************************************************************************/
+
+/*******************************************************************************************************
+* DateTime: 2012/8/24 18:16:05		IP: 127.0.0.1()		Brower: WinNT  IE9
+* Url : http://wlin.sisleycommnutiy.com/login.aspx?from=http://wlin.sisleycommnutiy.com/index.aspx
+uEmail=22967225@qq.com,uPwd=123,viladCode=9213
+*******************************************************************************************************/
+
